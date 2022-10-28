@@ -7,7 +7,11 @@
 
 ## Built With
 
+<<<<<<< HEAD
 - html, css, js
+=======
+- html, css
+>>>>>>> a27297f24b2fb34a8180feeff459dfdaa48ef2ca
 - Linters
 
 ## Live Demo (if available)
@@ -50,9 +54,15 @@ For tracking linter errors locally you need to follow these steps:
 
 👤 **Habtamu Birru**
 
+<<<<<<< HEAD
 - GitHub: [@githubhandle](https://github.com/Habtamu2010)
 - Twitter: [@twitterhandle](https://twitter.com/beleyaha)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/habtamu-birru-4187ab20)
+=======
+- GitHub:https://github.com/Habtamu2010
+- Twitter: https://twitter.com/beleyaha
+- LinkedIn:https://linkedin.com/in/habtamu-birru-4187ab20
+>>>>>>> a27297f24b2fb34a8180feeff459dfdaa48ef2ca
 
 
 ## 🤝 Contributing
@@ -73,6 +83,9 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT) licensed.
+<<<<<<< HEAD
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
+=======
+>>>>>>> a27297f24b2fb34a8180feeff459dfdaa48ef2ca
