@@ -50,9 +50,9 @@ For tracking linter errors locally you need to follow these steps:
 
 👤 **Habtamu Birru**
 
-- GitHub: [@githubhandle](https://github.com/Habtamu2010)
-- Twitter: [@twitterhandle](https://twitter.com/beleyaha)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/habtamu-birru-4187ab20)
+- GitHub:https://github.com/Habtamu2010
+- Twitter: https://twitter.com/beleyaha
+- LinkedIn:https://linkedin.com/in/habtamu-birru-4187ab20
 
 
 ## 🤝 Contributing
