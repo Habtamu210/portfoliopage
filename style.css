@@ -11,6 +11,7 @@
   background-color: #1c1a19;
   min-width: 375px;
   width: 100%;
+  height: 680px;
 }
 
 .logo {
@@ -20,7 +21,7 @@
   background: #3e3c3c;
   padding-left: 24px;
   padding-right: 24px;
-  height: 92px;
+  height: 62px;
   align-items: center;
 }
 
@@ -28,8 +29,8 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -56,13 +57,15 @@
 }
 
 .information {
-  font-family: 'Poppins', serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.4px;
-  font-size: 55px;
-  line-height: 70px;
-  color: #f55800;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
 }
 
 h2 {
@@ -71,17 +74,21 @@ h2 {
   font-weight: 700;
   line-height: 32px;
   text-align: left;
+  font-style: normal;
 }
 
 p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
-  color: #f4f5f7;
+  color:#fff;
   margin-top: 12px;
-}
+  left: 24px;
+  top: 295px;
+  border-radius: nullpx;
+ }
 
 ul {
   width: 49%;
