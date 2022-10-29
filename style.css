@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  color: whitesmoke;
+  background-color: #1c1a19;
+  min-width: 375px;
+  width: 100%;
+  height: 680px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #3e3c3c;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 62px;
+  align-items: center;
+}
+
+.me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  height: 22px;
+  width: 80px;
+  left: 142px;
+}
+
+.initial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 592px;
+  height: 100vh;
+  min-width: 375px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: url("images/illustration-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.information {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 12px;
+  left: 24px;
+  top: 295px;
+  border-radius: nullpx;
+}
+
+ul {
+  width: 49%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 99px;
+}
+
+.icons {
+  position: relative;
+  bottom: 62px;
+  left: 17px;
+}
+
+.vec {
+  width: 25px;
+}
+
+.bg {
+  flex-direction: column;
+  position: absolute;
+}
