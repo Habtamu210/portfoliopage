@@ -60,7 +60,6 @@
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.4px;
   font-size: 56px;
   line-height: 64px;
   color: #ff6b00;
@@ -83,12 +82,12 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color:#fff;
+  color: #fff;
   margin-top: 12px;
   left: 24px;
   top: 295px;
   border-radius: nullpx;
- }
+}
 
 ul {
   width: 49%;
