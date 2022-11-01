@@ -337,7 +337,8 @@ img.placeholder {
   align-items: center;
 }
 
-.lang-wrapper-1, .lang-wrapper-2 {
+.lang-wrapper-1,
+.lang-wrapper-2 {
   padding-top: 30px;
   display: flex;
   flex-direction: row;
@@ -347,7 +348,8 @@ img.placeholder {
   align-items: center;
 }
 
-.language,.fhead {
+.language,
+.fhead {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -357,7 +359,7 @@ img.placeholder {
   align-items: center;
   color: #fff;
   margin-left: 3px;
-  padding-top: -12px; 
+  padding-top: -12px;
 }
 
 .language-list {
