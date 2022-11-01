@@ -314,10 +314,7 @@ img.placeholder {
   line-height: 44px;
   color: #172b4d;
   text-align: center;
-  letter-spacing: 0em;
-  text-align: center;
-
-
+  letter-spacing: 0;
 }
 
 input {
@@ -401,11 +398,11 @@ footer:hover {
   margin: 5px auto auto auto;
 }
 
-footer >hr {
+footer > hr {
   width: 134px;
   margin: 0 45%;
   height: 5px;
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
