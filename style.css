@@ -397,12 +397,3 @@ footer:hover {
   padding-top: 5px;
   margin: 5px auto auto auto;
 }
-
-footer > hr {
-  width: 134px;
-  margin: 0 45%;
-  height: 5px;
-  bottom: 8px;
-  background: #0d151e;
-  border-radius: 10px;
-}
