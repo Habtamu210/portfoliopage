@@ -400,9 +400,12 @@ footer:hover {
 
 footer > hr {
   width: 134px;
-  margin: 0 45%;
+  margin: 0 45% 0 45%;
   height: 5px;
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
+}
+footer > hr:hover{
+  background: green;
 }
