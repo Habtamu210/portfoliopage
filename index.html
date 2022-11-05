@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
@@ -14,19 +15,33 @@
 </head>
 <body>
   <div class="main-container">
-    <header class="logo">
-      <h1 class="me">Habtamu</h1>
-      <nav class="humberger">
-      <a href="#"><img class="vec" src="images/Union.png" alt=""></a>
+    <!-- header part logo-->
+    <nav class="logo">
+      <div class="logo-name" href="#">Habtamu</div>
+      <div class="navbar-links">
+        <a href="#" class="toggle-button">
+          <img src="./images/humberger.png" alt="humberger icon">
+        </a>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#"><img class="message" src="images/posta.png" alt=""></a></li>
+        </ul>
+      </div>
+      
+        
     </nav>
-  </header>
+    <!--second part-->
     <section class="initial">
-      <h1 class="info">Hey There.
-      I’m Habtamu </h1>
-      <h2>I’am a Software Developer</h2>
-      <p class="main-text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-        don’t hestiate to contact me.
-      </p>
+      <div class="info-main">
+        <h1 class="info">Hey There.
+          I’m Habtamu </h1>
+          <h2>I’am a Software Developer</h2>
+          <p class="main-text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+            don’t hestiate to contact me.
+          </p>
+      </div>
       <ul class="icons">
         <li><a href="#"><img src="images/github.svg" alt=""></a></li>
         <li><a href="#"><img src="images/Linkedin.svg" alt=""></a></li>
@@ -34,200 +49,200 @@
         <li><a href="#"><img src="images/twitter.svg" alt=""></a></li>
         <li><a href="#"><img src="images/M.svg" alt=""></a></li>
       </ul>
+    </section>
     
    <!--  second project -->
-    </section>
-
-    <section class ="works">
-      <h2 class="section-header">My Recent Works</h3>
-        <hr>
-        <!-- project 1-->
-      <section class="projects" id ="pro-1">
-        <div class="img-wrapper">
-          <img class="placeholder" src="images/Img_Placeholder.png">
-        </div>
-        <h3 class="project-title">Multi-Post Stories</h3>
-        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text</p>
-         <ul class="languages">
-          <li class="langn">css</li>
-          <li class="langn">html</li>
-          <li class="langn">bootstrap</li>
-          <li class="langn" >Ruby</li>
-        </ul>
-        <button class="project-button">See Project</button>
-        
+    <div class ="works">
+      <section class="works-head">
+        <h2 class="section-header">My Recent Works</h2>
+        <img class="line-horizontal" src="images/Vector@2x.png">
       </section>
-
-      <!-- project 2-->
+        <!-- project 1-->
+      <section class="projects1" id ="pro-1">
+        <div class="img-wrapper">
+          <div class="story-image">
+            <img class="placeholder" src="images/Img_Placeholder.png">
+          </div>
+          <div class="mult-story">
+            <h3 class="project-title">Multi-Post Stories</h3>
+            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <ul class="languages">
+              <li class="langn">css</li>
+              <li class="langn">html</li>
+              <li class="langn">bootstrap</li>
+              <li class="langn">Ruby</li>
+            </ul>
+            <button class="project-button">See Project</button>
+          </div>
+        </div>  
+      </section>
+    </div>
+      <!-- project third part-->
+    <div class="works-1">
+      <!--1-->
       <section class="projects" id ="pro-2">
         <div class = "project-data">
           <h3 class="project-title">Professional Art Printing Data</h3>
           <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text</p>
-          
+          <ul class="languages-1">
+            <li class="langn">html</li>
+            <li class="langn">bootstrap</li>
+            <li class="langn">Ruby</li>
+          </ul>
+          <button class="fullwidth-button">See Project</button>
+        </div>
+      </section>
+      <!--2-->
+      <section class="projects" id ="pro-3">
+        <div class = "project-data">
+          <h3 class="project-title">Professional Art Printing Data</h3>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text</p>
           <ul class="languages">
             <li class="langn">html</li>
             <li class="langn">bootstrap</li>
-            <li class="langn" >Ruby</li>
+            <li class="langn">Ruby</li>
           </ul>
-          <button class="project-button fullwidth-button">See Project</button>
-      </div>
+          <button class="fullwidth-button-1">See Project</button>
+        </div>
       </section>
 
-        <!-- project 3-->
-        <section class="projects" id ="pro-3">
-           <div class = "project-data">
-             <h3 class="project-title">Professional Art Printing Data</h3>
-             <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text</p>
-             
-             <ul class="languages">
-               <li class="langn">html</li>
-               <li class="langn">bootstrap</li>
-               <li class="langn" >Ruby</li>
-             </ul>
-             <button class="project-button fullwidth-button">See Project</button>
-         </div>
-         </section>
-
-           <!-- project 4-->
+      <!--3-->
       <section class="projects" id ="pro-4">
-         <div class = "project-data">
-           <h3 class="project-title">Professional Art Printing Data</h3>
-           <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-           <ul class="languages">
-             <li class="langn">html</li>
-             <li class="langn">bootstrap</li>
-             <li class="langn" >Ruby</li>
-           </ul>
-           <button class="project-button fullwidth-button">See Project</button>
-       </div>
-       </section>
-
-         <!-- project 5-->
-      <section class="projects" id ="pro-5">
-         <div class = "project-data">
-           <h3 class="project-title">Professional Art Printing Data</h3>
-           <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-           
-           <ul class="languages">
-             <li class="langn">html</li>
-             <li class="langn">bootstrap</li>
-             <li class="langn" >Ruby</li>
-           </ul>
-           <button class="project-button fullwidth-button">See Project</button>
-       </div>
-       </section>
-
-         <!-- project 6-->
-      <section class="projects" id ="pro-6">
-         <div class = "project-data">
-           <h3 class="project-title">Professional Art Printing Data</h3>
-           <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-           
-           <ul class="languages">
-             <li class="langn">html</li>
-             <li class="langn">bootstrap</li>
-             <li class="langn" >Ruby</li>
-           </ul>
-           <button class="project-button fullwidth-button">See Project</button>
-       </div>
-       </section>
-        <!-- project 7-->
-       <section class="projects" id ="pro-7">
         <div class = "project-data">
           <h3 class="project-title">Professional Art Printing Data</h3>
           <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          
           <ul class="languages">
             <li class="langn">html</li>
             <li class="langn">bootstrap</li>
-            <li class="langn" >Ruby</li>
+            <li class="langn">Ruby</li>
           </ul>
-          <button class="project-button fullwidth-button">See Project</button>
-      </div>
+          <button class="fullwidth-button-1">See Project</button>
+        </div>
       </section>
-    </section>
-
-    <section class="about-me">
-      <div class="about-me-main">
-      <h2 class="section-header">About me</h2>
-      <p>
+      <!--4-->
+      <section class="projects" id ="pro-5">
+        <div class = "project-data">
+          <h3 class="project-title">Professional Art Printing Data</h3>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <ul class="languages">
+            <li class="langn">html</li>
+            <li class="langn">bootstrap</li>
+            <li class="langn">Ruby</li>
+          </ul>
+          <button class="fullwidth-button-1">See Project</button>
+        </div>
+      </section>
+      <!-- 5-->
+      <section class="projects" id ="pro-6">
+        <div class = "project-data">
+          <h3 class="project-title">Professional Art Printing Data</h3>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <ul class="languages">
+            <li class="langn">html</li>
+            <li class="langn">bootstrap</li>
+            <li class="langn">Ruby</li>
+          </ul>
+          <button class="fullwidth-button-1">See Project</button>
+        </div>
+      </section>
+      <!--6-->
+      <section class="projects" id ="pro-7">
+        <div class = "project-data">
+          <h3 class="project-title">Professional Art Printing Data</h3>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <ul class="languages">
+            <li class="langn">html</li>
+            <li class="langn">bootstrap</li>
+            <li class="langn">Ruby</li>
+          </ul>
+          <button class="fullwidth-button-1">See Project</button>
+        </div>
+      </section>
+  </div>
+  <!-- about me page-->
+  <section class="about-me">
+    <div class="about-me-main">
+      <h2 class="section-header-1">About me</h2>
+      <p class="section-pargraph">
         Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
       <!-- <img src="images/illustration-about-me-mobile@2x.svg" class="about-illus"> -->
       <button class="project-button">Get My Resume</button>
     </div>
-    <hr>
-
+    <div class="about-me-main-1">
+    </div>
+  </section>
+  <img src="images/Vector 4.png" class="between-about-skill">
   <ul class = "skill-set">
-        <li>
-          <div class="lang-wrapper">
-            <img src="images/Rectangle 55.svg"  class="Rectangle">
-            <h3 class="language">Language</h3>
-          </div>
-            <ul class="language-list">
-                <li>Javascript</li> 
-                <li>Ruby</li>
-                <li>Html</li>
-                <li>Css</li>
-            </ul>
-        </li>
-
-        <li>
-          <div class="lang-wrapper framework">
-            <img src="images/Rectangle 56.svg"class="Framework">
-            <h3 class="fhead">Frameworks</h3>
-          </div>
-        
-          <ul class="language-list">
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>Rspec</li>
-            <li>CopyBara</li>
-            <li>Selinium</li>
-          </ul>
-        </li>
-
-        <li>
-          <div class="lang-wrapper framework">
-            <img src="images/Rectangle 57.svg"class="rectangle57">
-            <h3 class="fhead">Skills</h3>
-          </div>
-            <ul class="language-list framework">
-                <li>Codekit</li> 
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-            </ul>
-        </li>
-  </ul>
-    </section>
-    <!-- contact me part-->
-    <section class="contact">
-      <div class="contact-us">
-        <p class="contactus-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-        <form action="https://formspree.io/f/meqdkpbp" method="post">
-          <ul class="contact-form">
-            <li><input type="text" name="name" placeholder="Full Name" maxlength="30" required></li>
-            <li><input type="email" name="email" placeholder="Email"  required></li>
-            <li><textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea></li>
-            <li><button type="submit" class="contact-button" class="form-submit">Get in Touch</button></li>    
-         </ul>
-        </form>
-
+    <li>
+      <div class="lang-wrapper">
+        <img src="images/Rectangle 55.svg">
+        <h3 class="language">Language</h3>
       </div>
-      
-    </section>
-    <footer>
-        <ul class="footer-icon">
-          <li><a href="#"><img src="images/f-github.png" alt=""></a></li>
-          <li><a href="#"><img src="images/Group.png" alt=""></a></li>
-          <li><a href="#"><img src="images/f-what.png" alt=""></a></li>
-          <li><a href="#"><img src="images/f-twitter.png" alt=""></a></li>
-          <li><a href="#"><img src="images/f-M.png" alt=""></a></li>
-        </ul>
-        <hr>
-      </footer>
-  </div> 
+      <ul class="language-list">
+        <li>Javascript</li> 
+        <li>Ruby</li>
+        <li>Html</li>
+        <li>Css</li>
+      </ul>
+    </li>
+    <li>
+      <div class="lang-wrapper framework">
+        <img src="images/Rectangle 56.svg">
+        <h3 class="fhead">Frameworks</h3>
+      </div>
+      <ul class="language-list">
+        <li>Bootstrap</li>
+        <li>Ruby on rails</li>
+        <li>Rspec</li>
+        <li>CopyBara</li>
+        <li>Selinium</li>
+      </ul>
+    </li>
+    <li>
+      <div class="lang-wrapper framework">
+        <img src="images/Rectangle 57.svg">
+        <h3 class="fhead">Skills</h3>
+      </div>
+      <ul class="language-list framework">
+        <li>Codekit</li> 
+        <li>Github</li>
+        <li>Codepen</li>
+        <li>Gitlab</li>
+        <li>Terminal</li>
+      </ul>
+    </li>
+  </ul>
+  <!-- contact me part-->
+  <section class="contact">
+    <div class="contact-us">
+      <p class="contactus-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+    </div>
+    <div class="form-contact">
+      <form action="https://formspree.io/f/meqdkpbp" method="post">
+      <ul class="contact-form">
+        <div class="login-name">
+           <li><input type="text" name="name" placeholder="First Name" maxlength="30" required></li>
+           <li><input type="text" name="name" placeholder="Last Name" maxlength="30" required></li>
+        </div>
+        <li ><input class="email-add" type="email" name="email" placeholder="Email"  required></li>
+        <li><textarea class="msg-box" type="text" name="message" id="" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea></li>
+        <li><button type="submit" class="form-submit">Get in Touch</button></li>    
+      </ul>
+    </form>
+  </div>
+    </div>  
+  </section>
+  <footer>
+    <ul class="footer-icon">
+      <li><a href="#"><img src="images/f-github.png" alt=""></a></li>
+      <li><a href="#"><img src="images/Group.png" alt=""></a></li>
+      <li><a href="#"><img src="images/f-what.png" alt=""></a></li>
+      <li><a href="#"><img src="images/f-twitter.png" alt=""></a></li>
+      <li><a href="#"><img src="images/f-M.png" alt=""></a></li>
+    </ul>
+    <hr>
+  </footer>
+</div> 
 </body>
 </html>
