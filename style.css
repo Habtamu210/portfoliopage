@@ -6,7 +6,6 @@
 
 .main-container {
   color: whitesmoke;
-  background-color: #1c1a19;
   min-width: 375px;
   width: 100%;
 }
@@ -120,6 +119,7 @@ li {
   background: url("images/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-color: #1c1a19;
 }
 
 .info {
@@ -336,15 +336,19 @@ img.placeholder {
 .about-me {
   min-width: 375px;
   background: #262626;
+  margin-top: 80px;
+}
+.about-me-main {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .about-me .about-me-main-1 {
-  background: url("images/Group-1.png");
+  background: url("images/about-me-background.png");
   background-position: right bottom;
   background-repeat: no-repeat;
   height: 200px;
-  width: 200px;
-  padding-right: 700px;
+  width: 100%;
   right: 0;
   bottom: 0;
 }
@@ -369,11 +373,22 @@ img.placeholder {
   color: #f4f5f7;
 }
 
+.separator-line{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+ul.skill-set{
+  background-color: #1C1A19;
+}
+
 .lang-wrapper {
   padding-top: 20px;
   display: flex;
   gap: 5px;
   justify-content: center;
+}
+.triangle{
+  width:18px;
 }
 
 .language-list {
@@ -415,6 +430,12 @@ img.placeholder {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 120px;
+}
+
+.form-contact {
+  padding: auto 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .contactus-description {
@@ -612,18 +633,24 @@ footer > hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2;
-    border-radius: 0;
     row-gap: 0;
     column-gap: 12px;
     margin-top: 4px;
     margin-bottom: 24px;
-    margin-left: 30px;
-    margin-right: 0;
+    padding-left: 141px;
+    padding-right: 143px;
+  }
+
+  .projects{
+    min-height: 435px;
+    height: 100%;
   }
 
   .works {
     background: white;
     margin-top: 14px;
+    padding-left: 141px;
+    padding-right: 143px;
   }
 
   .works-head {
@@ -665,7 +692,6 @@ footer > hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 44px;
-    padding-left: 34px;
     background: white;
   }
 
@@ -675,8 +701,6 @@ footer > hr {
   }
 
   .project-title {
-    width: 448px;
-    height: 48px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -689,8 +713,6 @@ footer > hr {
   }
 
   .project-description {
-    width: 448px;
-    height: 140px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -720,13 +742,18 @@ footer > hr {
 
   .fullwidth-button {
     display: block;
-    width: 369px;
+    width: 100%;
   }
 
   .fullwidth-button-1 {
     display: none;
     width: 369px;
     height: 435px;
+  }
+
+  .language-list{
+    align-items: flex-start;
+    padding-left: 114px;
   }
 
   .languages-1 {
@@ -749,11 +776,16 @@ footer > hr {
     margin-left: 80px;
   }
 
+  h2.section-header-1 {
+    text-align: left;
+}
+
   .about-me > .about-me-main-1 {
     background-position: center;
     background-repeat: no-repeat;
     height: 652px;
     width: 652px;
+    background-image: url(images/Group-1.png);
   }
 
   .between-about-skill {
@@ -780,6 +812,28 @@ footer > hr {
     background: #262626;
   }
 
+  .skill-set li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+}
+
+  .lang-wrapper {
+    padding-left: 131px;
+  }
+.fhead{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+}
   .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -836,5 +890,8 @@ footer > hr {
 
   footer > hr {
     display: none;
+  }
+  .footer-icon{
+    border-top: 1px solid #DFE1E6;
   }
 }
