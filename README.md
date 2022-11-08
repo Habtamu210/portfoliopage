@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[coming soon](https://livedemo.com)
+https://habtamu210.github.io/portfoliopage/
 
 
 ## Getting Started
