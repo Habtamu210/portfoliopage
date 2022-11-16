@@ -16,24 +16,45 @@
 <body>
   <div class="main-container">
     <!-- header part logo-->
-    <nav class="logo">
+    <header>
+      <nav class="navbar">
+        <a href ="#" class="nav-branding">Habtamu</a>
+        <ul class="nav-menu">
+
+          <li class="nav-item"><a href="#initial" class="nav-link">Portfolio</a><img class="line-hor" src="images/Vector@2x.png"></li>
+          <li class="nav-item"><a href="#works" class="nav-link">About</a><img class="line-hor" src="images/Vector@2x.png"></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a><img class="line-hor" src="images/Vector@2x.png"></li>
+          <li class="nav-item"><a href="#message" class="nav-link"><img class="message" src="images/posta.png" alt=""></a><img class="line-hor" src="images/Vector@2x.png"></li>
+
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+
+      </nav>
+
+    </header>
+    <!--<nav class="logo">
       <div class="logo-name" href="#">Habtamu</div>
       <div class="navbar-links">
         <a href="#" class="toggle-button">
           <img src="./images/humberger.png" alt="humberger icon">
         </a>
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#"><img class="message" src="images/posta.png" alt=""></a></li>
+        <ul class="jsquery">
+          <li><a href="#">Portfolio</a><img class="line-hor" src="images/Vector@2x.png"></li>
+          <li><a href="#">About</a><img class="line-hor" src="images/Vector@2x.png"></li>
+          <li><a href="#">Contact</a><img class="line-hor" src="images/Vector@2x.png"></li>
+          <li><a href="#"><img class="message" src="images/posta.png" alt=""></a><img class="line-hor" src="images/Vector@2x.png"></li>
         </ul>
       </div>
       
         
-    </nav>
+    </nav>-->
     <!--second part-->
-    <section class="initial">
+    <section class="initial" id="initial">
       <div class="info-main">
         <h1 class="info">Hey There.
           I’m Habtamu </h1>
@@ -52,7 +73,7 @@
     </section>
     
    <!--  second project -->
-    <div class ="works">
+    <div class ="works" id="works">
       <section class="works-head">
         <h2 class="section-header">My Recent Works</h2>
         <img class="line-horizontal" src="images/Vector@2x.png">
@@ -214,7 +235,7 @@
     </li>
   </ul>
   <!-- contact me part-->
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="contact-us">
       <p class="contactus-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
@@ -234,7 +255,7 @@
     </div>  
   </section>
   <footer>
-    <ul class="footer-icon">
+    <ul class="footer-icon" id="message">
       <li><a href="#"><img src="images/f-github.png" alt=""></a></li>
       <li><a href="#"><img src="images/Group.png" alt=""></a></li>
       <li><a href="#"><img src="images/f-what.png" alt=""></a></li>
@@ -244,5 +265,6 @@
     <hr>
   </footer>
 </div> 
+<script src ="script.js"></script>
 </body>
 </html>
