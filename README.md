@@ -7,7 +7,7 @@
 
 ## Built With
 
-- html, css
+- html, css,js
 - Linters
 
 ## Live Demo (if available)
