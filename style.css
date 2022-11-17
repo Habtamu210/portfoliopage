@@ -26,7 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  
 }
 
 .nav-branding {
@@ -40,7 +40,7 @@ header {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 24px;
   color: #fff5e1;
   transition: 0.7s ease;
@@ -580,40 +580,6 @@ footer > hr {
 
 /* desktop version */
 @media only screen and (min-width: 768px) {
-  /* .toggle-button {
-    display: none;
-  }
-
-  .navbar-links {
-    width: 100%;
-  }
-  .line-hor{
-    display: none;
-
-  }
-
-  .logo {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .navbar-links li {
-    text-align: center;
-    row-gap: 1px;
-  }
-
-  .navbar-links li a {
-    padding: 0.5rem 1rem;
-  } */
-
   .initial {
     display: flex;
     flex-direction: row-reverse;
@@ -947,23 +913,37 @@ footer > hr {
     left: -100%;
     height: 100%;
     top: 0;
+    display: flex;
     flex-direction: column;
-    background-color: #1c1a19;
+    background: #3c3a39;
     width: 100%;
     transition: 0.3s;
     text-align: left;
-    gap: 0;
-    padding-top: 20px;
+    margin-top: 30px; 
+    
   }
 
   .nav-link {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 32px;
     line-height: 12px;
-    color: #fff5e1;
-    column-gap: 10px;
+    color: #fff5e1; 
+  }
+
+  .nav-item {
+    padding-top: 2px;
+    
+  }
+  .nav-menu li a{
+   position:sticky;
+    margin: 0px;
+    top: 10px;
+    padding: 10px;
+  }
+  .nav-menu.active {
+    left: 0;
   }
 
   .line-hor {
@@ -973,14 +953,6 @@ footer > hr {
     left: 0;
     border-radius: 0;
     background: #fff;
-  }
-
-  nav.item {
-    margin: 8px 0;
-  }
-
-  .nav-menu.active {
-    left: 0;
   }
 
   .icons {
