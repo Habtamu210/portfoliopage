@@ -26,7 +26,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .nav-branding {
@@ -919,8 +918,7 @@ footer > hr {
     width: 100%;
     transition: 0.3s;
     text-align: left;
-    margin-top: 30px; 
-    
+    margin-top: 30px;
   }
 
   .nav-link {
@@ -929,19 +927,16 @@ footer > hr {
     font-weight: 700;
     font-size: 32px;
     line-height: 12px;
-    color: #fff5e1; 
+    color: #fff5e1;
   }
 
-  .nav-item {
-    padding-top: 2px;
-    
-  }
-  .nav-menu li a{
-   position:sticky;
-    margin: 0px;
+  .nav-menu li a {
+    position: sticky;
+    margin: 0;
     top: 10px;
-    padding: 10px;
+    padding-top: 10px;
   }
+
   .nav-menu.active {
     left: 0;
   }
