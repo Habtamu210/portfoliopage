@@ -910,7 +910,7 @@ footer > hr {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -925,9 +925,10 @@ footer > hr {
     margin-top: 30px;
     justify-content: flex-start;
   }
-  /*.nav-item li a{
+
+  /* .nav-item li a{
     height: 25%;
-  }*/
+  } */
 
   .nav-link {
     font-family: 'Inter', sans-serif;
