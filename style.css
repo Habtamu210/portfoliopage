@@ -45,6 +45,10 @@ header {
   transition: 0.7s ease;
 }
 
+a#msg {
+  display: none;
+}
+
 .nav-link:hover {
   background-color: #091e42;
 }
@@ -86,7 +90,7 @@ li {
 .nav-menu li a {
   text-decoration: none;
   color: #fff;
-  padding: 1rem;
+  padding: 1.5rem;
   display: block;
 }
 
@@ -906,7 +910,7 @@ footer > hr {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
+  
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -919,7 +923,11 @@ footer > hr {
     transition: 0.3s;
     text-align: left;
     margin-top: 30px;
+    justify-content: flex-start;
   }
+  /*.nav-item li a{
+    height: 25%;
+  }*/
 
   .nav-link {
     font-family: 'Inter', sans-serif;
@@ -928,13 +936,13 @@ footer > hr {
     font-size: 32px;
     line-height: 12px;
     color: #fff5e1;
+    height: 100%;
   }
 
   .nav-menu li a {
     position: sticky;
     margin: 0;
     top: 10px;
-    padding-top: 10px;
   }
 
   .nav-menu.active {
