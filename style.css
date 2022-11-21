@@ -352,7 +352,8 @@ img.placeholder {
   color: #f4f5f7;
   background: rgba(255, 255, 255, 0.24);
 }
-/*----- modal part*/
+
+/* ----- modal part */
 
 .modal-container {
   position: fixed;
@@ -747,8 +748,8 @@ footer > hr {
     min-height: 435px;
     height: 100%;
   }
-  
-  .project-modal {
+
+  /* .project-modal {
     width: 80%;
     height: 76%;
     padding-bottom: 20px;
@@ -784,7 +785,7 @@ footer > hr {
   #modal-description {
     margin-top: 0;
     margin-right: 10px;
-  }
+  } */
 
   .works {
     background: white;
@@ -937,7 +938,6 @@ footer > hr {
     margin-top: 0;
     margin-right: 10px;
   }
-
 
   .about-me {
     display: grid;
@@ -1096,7 +1096,7 @@ footer > hr {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -1111,7 +1111,7 @@ footer > hr {
     margin-top: 30px;
     justify-content: flex-start;
   }
-  
+
   .nav-link {
     font-family: 'Inter', sans-serif;
     font-style: normal;
