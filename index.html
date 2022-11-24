@@ -12,8 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous" />
 </head>
 <body>
   <div class="main-container">
@@ -80,26 +78,12 @@
               <li class="langn">bootstrap</li>
               <li class="langn">Ruby</li>
             </ul>
-            <button class="project-button" id="project1">See Project</button>
+            <button class="project-button">See Project</button>
           </div>
         </div>  
       </section>
     </div>
-    <!-- project third part-->
-
-
-      <!-- popup window -->
-    <div class="modal-cont">
-      <div class="modal">
-        <div class="m-header">
-          <span class="btn-x" draggable="true">&times;</span>
-        </div>
-        <div class="popup">
-        </div>
-      </div>
-    </div>
-    <div id="over"></div>
-    
+      <!-- project third part-->
     <div class="works-1">
       <!--1-->
       <section class="projects" id ="pro-2">
@@ -111,9 +95,7 @@
             <li class="langn">bootstrap</li>
             <li class="langn">Ruby</li>
           </ul>
-          <div class="project-see">
-            <button class="fullwidth-button" id="project2">See Project</button>
-          </div>    
+          <button class="fullwidth-button">See Project</button>
         </div>
       </section>
       <!--2-->
@@ -126,9 +108,7 @@
             <li class="langn">bootstrap</li>
             <li class="langn">Ruby</li>
           </ul>
-          <div class="project-see">
-            <button class="fullwidth-button-1" id="project3">See Project</button>
-          </div>
+          <button class="fullwidth-button-1">See Project</button>
         </div>
       </section>
 
@@ -142,9 +122,7 @@
             <li class="langn">bootstrap</li>
             <li class="langn">Ruby</li>
           </ul>
-          <div class="project-see">
-            <button class="fullwidth-button-1" id="project4">See Project</button>
-          </div>  
+          <button class="fullwidth-button-1">See Project</button>
         </div>
       </section>
       <!--4-->
@@ -157,9 +135,7 @@
             <li class="langn">bootstrap</li>
             <li class="langn">Ruby</li>
           </ul>
-          <div class="project-see">
-            <button class="fullwidth-button-1" id="project5">See Project</button>
-          </div>
+          <button class="fullwidth-button-1">See Project</button>
         </div>
       </section>
       <!-- 5-->
@@ -172,9 +148,7 @@
             <li class="langn">bootstrap</li>
             <li class="langn">Ruby</li>
           </ul>
-          <div class="project-see">
-            <button class="fullwidth-button-1" id="project6">See Project</button>
-          </div>
+          <button class="fullwidth-button-1">See Project</button>
         </div>
       </section>
       <!--6-->
@@ -187,15 +161,10 @@
             <li class="langn">bootstrap</li>
             <li class="langn">Ruby</li>
           </ul>
-          <div class="project-see">
-            <button class="fullwidth-button-1" id="project7">See Project</button>
-          </div>  
+          <button class="fullwidth-button-1">See Project</button>
         </div>
       </section>
   </div>
-
-  
-
   <!-- about me page-->
   <section class="about-me" id="about-me">
     <div class="about-me-main">
@@ -256,15 +225,19 @@
       <p class="contactus-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
     <div class="form-contact">
-      <form action="https://formspree.io/f/meqdkpbp" method="post">
+      <div id="error"></div>
+      <form id="form" action="https://formspree.io/f/meqdkpbp" method="post">
       <ul class="contact-form">
         <div class="login-name">
            <li><input type="text" name="name" placeholder="First Name" maxlength="30" required></li>
            <li><input type="text" name="name" placeholder="Last Name" maxlength="30" required></li>
         </div>
-        <li ><input class="email-add" type="email" name="email" placeholder="Email"  required></li>
-        <li><textarea class="msg-box" type="text" name="message" id="" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea></li>
-        <li><button type="submit" class="form-submit">Get in Touch</button></li>    
+        <li ><input class="email-add" id="email" type="email" name="email" placeholder="Email"  required></li>
+        
+        <li><textarea id="message" class="msg-box" type="text" name="message" id="" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea></li>
+        <li><button type="submit" class="form-submit">Get in Touch</button></li> 
+        <div class="error-message">
+          <small class="error-message" id="error"> </small>   
       </ul>
     </form>
   </div>
@@ -280,35 +253,8 @@
     </ul>
     <hr>
   </footer>
-
-<!-- my pop up-->
-<div class="modal-container" id="modal-container">
-  <div class="project-modal" id="project-modal">
-    <button type="button" class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
-    <h2 id="project-name" class="project-name">Professional Art Printing Data</h2>
-    <ul class="languages-list" id="languages-list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Bootstrap</li>
-      <li>Ruby</li>
-    </ul>
-    <div class="modal-grid">
-      <img src="images/Snapshoot Portfolio.png" alt="project image" id="project-image">
-      <div class="descp-container">
-        <p id="modal-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-        <div class="link-group">
-          <a id="live-link" href="#" target="new">See Live <i class="fas fa-link"></i></a>
-          <a id="source-link" href="#" target="new">See Source <i class="fas fa-code"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 </div> 
-
 <script src ="script.js"></script>
-<script src ="popup.js"></script>
-
+<script src ="validate.js"></script>
 </body>
 </html>
