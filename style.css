@@ -565,8 +565,8 @@ textarea:focus {
 }
 
 .error-message {
- display: block;
- justify-content: center;
+  display: block;
+  justify-content: center;
 }
 
 footer {
