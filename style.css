@@ -550,11 +550,10 @@ textarea:focus {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 12px;
 }
 
 .error {
-  width: 100%;
-  padding-right: 12px;
   font-size: 80%;
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
@@ -566,7 +565,8 @@ textarea:focus {
 }
 
 .error-message {
-  margin: 0 auto;
+ display: block;
+ justify-content: center;
 }
 
 footer {
