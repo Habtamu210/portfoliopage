@@ -5,7 +5,7 @@ const email = document.getElementById('email');
 const error = document.getElementById('error');
 
 const message = document.querySelector('.error-message');
-console.log(message);
+
 form.addEventListener('submit', (event) => {
 
   const messageWhileError = [];
