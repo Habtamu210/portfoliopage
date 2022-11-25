@@ -20,7 +20,6 @@
 - CSS and 
 - JS
 
--
 ## Technologies used
 - linters
 - Lighthouse
