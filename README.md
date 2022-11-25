@@ -1,14 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portfolio Page
 
-> It is portfolio website in the making !!
+> This project is a responsive prortfolio website. This website has a nice look and feel on both small devices like phone and tablets and devices with large screens !!
+
+## Screenshot of the desktop version
+
+![image](https://user-images.githubusercontent.com/36001215/203973823-c5ebd5f9-9b2f-4fc2-ae60-d8c4ad083eed.png)
+
+## Screenshot of the Mobile version
+
+![image](https://user-images.githubusercontent.com/36001215/203973646-f2e99b01-3e11-4f91-a4ed-9504e5927f84.png)
+
 
 
 ## Built With
 
-- html, css,js
-- Linters
+- HTML, 
+- CSS and 
+- JS
+
+-
+## Technologies used
+- linters
+- Lighthouse
+- Webhint
+- Stylelint
+
+## Key Features
+
+- Header section with certian menus
+- Work section which contain cards
+- About me section 
+- Form section which enables to input certain information
+- Footer section with list of contacts
+
+
 
 ## Live Demo (if available)
 
@@ -40,7 +67,9 @@ For tracking linter errors locally you need to follow these steps:
 
   >2. For tracking linter errors in CSS or SASS files run:
   ` npx stylelint "\*_/_.{css,scss}" `
-
+  
+## Deployment
+- https://formspree.io/
 
 ## Authors
 
