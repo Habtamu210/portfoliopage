@@ -1,14 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portfolio Page
 
-> It is portfolio website in the making !!
+> It is portfolio website about me, which contains certain information about the developer!!
 
 
 ## Built With
 
 - html, css,js
 - Linters
+
+## Key Features
+
+- Header section with certian menus
+- Work section which contain cards
+- About me section 
+- Form section which enables to input certain information
+- Footer section with list of contacts
+
+
 
 ## Live Demo (if available)
 
@@ -40,7 +50,9 @@ For tracking linter errors locally you need to follow these steps:
 
   >2. For tracking linter errors in CSS or SASS files run:
   ` npx stylelint "\*_/_.{css,scss}" `
-
+  
+## Deployment
+- https://formspree.io/
 
 ## Authors
 
