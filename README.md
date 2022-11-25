@@ -2,13 +2,30 @@
 
 # Portfolio Page
 
-> It is portfolio website about me, which contains certain information about the developer!!
+> This project is a responsive prortfolio website. This website has a nice look and feel on both small devices like phone and tablets and devices with large screens !!
+
+## Screenshot of the desktop version
+
+![image](https://user-images.githubusercontent.com/36001215/203973823-c5ebd5f9-9b2f-4fc2-ae60-d8c4ad083eed.png)
+
+## Screenshot of the Mobile version
+
+![image](https://user-images.githubusercontent.com/36001215/203973646-f2e99b01-3e11-4f91-a4ed-9504e5927f84.png)
+
 
 
 ## Built With
 
-- html, css,js
-- Linters
+- HTML, 
+- CSS and 
+- JS
+
+-
+## Technologies used
+- linters
+- Lighthouse
+- Webhint
+- Stylelint
 
 ## Key Features
 
