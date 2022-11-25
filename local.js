@@ -7,6 +7,7 @@ if (window.localStorage.getItem('show data')) {
   contactForm.email.value = formObject.email;
   contactForm.message.value = formObject.message;
 }
+
 function collectFormData() {
   formValues.name = contactForm.name.value;
   formValues.lname = contactForm.lname.value;
