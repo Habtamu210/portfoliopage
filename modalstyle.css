@@ -148,7 +148,6 @@ body {
   width: 16px;
   left: 4px;
   top: 4px;
-  border-radius: 1px;
 }
 
 .btn-oo {
@@ -217,7 +216,6 @@ body {
     width: 310px;
     left: 16px;
     top: 170px;
-    border-radius: 1px;
   }
 
   .info-pop {
