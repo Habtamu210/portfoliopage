@@ -770,7 +770,6 @@ footer > hr {
     background: #fff;
     height: 631px;
     width: 1156px;
-    border-radius: 0px;
     margin: 100px;
     bottom: 1px;
     border: 1px solid #ebecf0;
@@ -781,12 +780,13 @@ footer > hr {
     display: flex;
     flex-direction: column;
   }
+
   .mod-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .mod-heading h2 {
     width: 1056px;
     height: 40px;
@@ -800,7 +800,7 @@ footer > hr {
   
   .modal-language {
     margin-left: 2px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     list-style: none;
     left: 0;
@@ -810,15 +810,15 @@ footer > hr {
     width: 70px;
     height: 28px;
     opacity: 0.5;
-    color: #3C3A39;
+    color: #3c3a39;
     font-size: 50px;
     margin-top: 10px;
   }
-  
+
   .close:hover {
     opacity: 0.8;
   }
-  
+
   .modal-language li {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -830,7 +830,6 @@ footer > hr {
     border: 1px solid #3c3a39;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #ebecf0;
   }
   
   .description-part {
@@ -874,7 +873,6 @@ footer > hr {
   }
   
   .btn-o {
-    align-items: flex-start;
     padding: 12px;
     gap: 12px;
     width: 134px;
@@ -905,7 +903,6 @@ footer > hr {
     width: 159px;
     gap: 12px;
     top: 556px;
-    border-radius: 0px;
     padding: 12px;
     background: #f55800;
     color: #fff;
@@ -922,7 +919,6 @@ footer > hr {
     width: 17.985200881958008px;
     left: 0.013671875px;
     top: 1px;
-    border-radius: 0px;
     margin-left: 6px;
   }
 
@@ -1123,7 +1119,6 @@ footer > hr {
     display: block;
     height: 1px;
     width: 327px;
-    left: 1;
     border-radius: 1px;
     background: #fff;
   }
@@ -1133,12 +1128,10 @@ footer > hr {
   }
 }
 
-@media only screen and (max-width: 667px)  {
-
+@media only screen and (max-width: 667px) {
   .modal-main {
     position: absolute; 
     height: 989px;
-    left: 0px;
     top: 0px;
     background: #979493;
     mix-blend-mode: multiply;
@@ -1150,18 +1143,17 @@ footer > hr {
     top: 60px;
     border-radius: 0px;
     margin-left: 8px;
-}
-
-.modal-container h2 {
+  }
+  
+  .modal-container h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 44px;
     color: #172b4d;
-    left: 1px;
   }
-
+  
   .modal-language {
     margin-left: 2px;
   }
@@ -1196,23 +1188,22 @@ footer > hr {
     border-radius: nullpx;
     color: #172b4d;  
   }
-
+  
   .button-modal {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   gap: 20px;
-   padding-top: 40px; 
-}
-}
-
-.close {
-  width: 70px;
-  height: 28px;
-  opacity: 0.5;
-  color: #3c3a39;
-  font-size: 50px;
-  margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  
+  .close {
+    width: 70px;
+    height: 28px;
+    opacity: 0.5;
+    color: #3c3a39;
+    font-size: 50px;
+    margin-top: 10px;
 }
 
 .close:hover {
@@ -1305,4 +1296,5 @@ footer > hr {
   top: 1px;
   border-radius: 1px;
   margin-left: 6px;
+}
 }
