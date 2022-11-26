@@ -147,8 +147,8 @@ const displayModal = (id) => {
       <div class="info-pop">
         <p>${project.description}</p>
         <div class="button-modal">
-          <button class="btn-o"><a class = "pop-link" href= "#"> See Live <img class="live" src="images/Icon-see-live.svg"></a></button>
-          <button class="btn-oo"><a class = "pop-link" href= "#">See Source<img class="see"  src="images/Vector.svg"></a></button>
+          <button class="btn-o"><a class = "pop-link" href= "https://habtamu210.github.io/portfoliopage/"> See Live <img class="live" src="images/Icon-see-live.svg"></a></button>
+          <button class="btn-oo"><a class = "pop-link" href= "https://github.com/Habtamu210/portfoliopage">See Source<img class="see"  src="images/Vector.svg"></a></button>
         </div>
       </div>
     </div>
