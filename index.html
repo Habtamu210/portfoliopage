@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="/modalstyle.css">-->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
@@ -64,7 +65,7 @@
         <img class="line-horizontal" src="images/Vector@2x.png">
       </section>
         <!-- project 1-->
-      <section class="projects1" id ="pro-1">
+      <section class="projects" id ="pro-1">
         <div class="img-wrapper">
           <div class="story-image">
             <img class="placeholder" src="images/Img_Placeholder.png">
@@ -78,93 +79,18 @@
               <li class="langn">bootstrap</li>
               <li class="langn">Ruby</li>
             </ul>
-            <button class="project-button">See Project</button>
+            <button class="project-button" id = "pro-1-btn">See Project</button>
           </div>
         </div>  
       </section>
     </div>
       <!-- project third part-->
     <div class="works-1">
-      <!--1-->
-      <section class="projects" id ="pro-2">
-        <div class = "project-data">
-          <h3 class="project-title">Professional Art Printing Data</h3>
-          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text</p>
-          <ul class="languages-1">
-            <li class="langn">html</li>
-            <li class="langn">bootstrap</li>
-            <li class="langn">Ruby</li>
-          </ul>
-          <button class="fullwidth-button">See Project</button>
-        </div>
-      </section>
-      <!--2-->
-      <section class="projects" id ="pro-3">
-        <div class = "project-data">
-          <h3 class="project-title">Professional Art Printing Data</h3>
-          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text</p>
-          <ul class="languages">
-            <li class="langn">html</li>
-            <li class="langn">bootstrap</li>
-            <li class="langn">Ruby</li>
-          </ul>
-          <button class="fullwidth-button-1">See Project</button>
-        </div>
-      </section>
+     
+    </div> 
+  <section class="modal" id = "myModal">
 
-      <!--3-->
-      <section class="projects" id ="pro-4">
-        <div class = "project-data">
-          <h3 class="project-title">Professional Art Printing Data</h3>
-          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          <ul class="languages">
-            <li class="langn">html</li>
-            <li class="langn">bootstrap</li>
-            <li class="langn">Ruby</li>
-          </ul>
-          <button class="fullwidth-button-1">See Project</button>
-        </div>
-      </section>
-      <!--4-->
-      <section class="projects" id ="pro-5">
-        <div class = "project-data">
-          <h3 class="project-title">Professional Art Printing Data</h3>
-          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          <ul class="languages">
-            <li class="langn">html</li>
-            <li class="langn">bootstrap</li>
-            <li class="langn">Ruby</li>
-          </ul>
-          <button class="fullwidth-button-1">See Project</button>
-        </div>
-      </section>
-      <!-- 5-->
-      <section class="projects" id ="pro-6">
-        <div class = "project-data">
-          <h3 class="project-title">Professional Art Printing Data</h3>
-          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          <ul class="languages">
-            <li class="langn">html</li>
-            <li class="langn">bootstrap</li>
-            <li class="langn">Ruby</li>
-          </ul>
-          <button class="fullwidth-button-1">See Project</button>
-        </div>
-      </section>
-      <!--6-->
-      <section class="projects" id ="pro-7">
-        <div class = "project-data">
-          <h3 class="project-title">Professional Art Printing Data</h3>
-          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          <ul class="languages">
-            <li class="langn">html</li>
-            <li class="langn">bootstrap</li>
-            <li class="langn">Ruby</li>
-          </ul>
-          <button class="fullwidth-button-1">See Project</button>
-        </div>
-      </section>
-  </div>
+  </section>
   <!-- about me page-->
   <section class="about-me" id="about-me">
     <div class="about-me-main">
@@ -225,24 +151,20 @@
       <p class="contactus-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
     <div class="form-contact">
-      
-      <form id="form" action="https://formspree.io/f/meqdkpbp" method="post">
+      <form action="https://formspree.io/f/meqdkpbp" method="post">
       <ul class="contact-form">
         <div class="login-name">
-           <li><input id="name" type="text" name="name" placeholder="First Name" maxlength="30" required></li>
-           <li><input id="lname" type="text" name="lname" placeholder="Last Name" maxlength="30" required></li>
+           <li><input type="text" name="name" placeholder="First Name" maxlength="30" required></li>
+           <li><input type="text" name="name" placeholder="Last Name" maxlength="30" required></li>
         </div>
-        <li ><input class="email-add" id="email" type="email" name="email" placeholder="Email"  required></li>
-        <li><textarea id="message" class="msg-box" type="text" name="message" id="" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea></li>
-        <div class="error-message" id="error"></div>
-        <li><button type="submit" class="form-submit">Get in Touch</button></li>
-          
-        </div>   
+        <li ><input class="email-add" type="email" name="email" placeholder="Email"  required></li>
+        <li><textarea class="msg-box" type="text" name="message" id="" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea></li>
+        <li><button type="submit" class="form-submit">Get in Touch</button></li>    
       </ul>
     </form>
   </div>
-</div>  
-</section>
+    </div>  
+  </section>
   <footer>
     <ul class="footer-icon" id="message">
       <li><a href="#"><img src="images/f-github.png" alt=""></a></li>
@@ -255,7 +177,8 @@
   </footer>
 </div> 
 <script src ="script.js"></script>
-<script src ="validate.js"></script>
-<script src ="localdata.js"></script>
+<!-- <script src="popup.js"></script> -->
+<!-- <script src="populate.js"></script> -->
+<script src="popup.js"></script>
 </body>
 </html>
