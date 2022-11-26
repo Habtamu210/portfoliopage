@@ -237,4 +237,11 @@ body {
     gap: 20px;
     padding-top: 40px;
   }
+  .close {
+    width: 70px;
+    height: 28px;
+    opacity: 0.5;
+    color: #3C3A39;
+    font-size: 27px;
+  }
 }
