@@ -45,17 +45,17 @@ body {
 .mod-heading h2 {
   width: 1056px;
   height: 40px;
-  font-family: 'Crete Round',sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .modal-language {
   margin-left: 2px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   list-style: none;
   left: 0;
@@ -65,7 +65,7 @@ body {
   width: 70px;
   height: 28px;
   opacity: 0.5;
-  color: #3C3A39;
+  color: #3c3a39;
   font-size: 50px;
   margin-top: 10px;
 }
@@ -75,20 +75,19 @@ body {
 }
 
 .modal-language li {
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #3C3A39;
+  color: #3c3a39;
   row-gap: 10px;
-  border: 1px solid #3C3A39;
+  border: 1px solid #3c3a39;
   padding: 10px;
   margin: 10px;
-  border: 1px solid #EBECF0;
 }
 
-.description-part{
+.description-part {
   display: flex;
   flex-direction: row;
 }
@@ -98,10 +97,9 @@ body {
   width: 659px;
   left: 24px;
   top: 156px;
-  border-radius: 0px;
 }
 
-.info-pop{
+.info-pop {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
@@ -110,17 +108,17 @@ body {
 }
 
 .info-pop p {
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
   margin-top: -6px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.button-modal{
+.button-modal {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -134,13 +132,13 @@ body {
   gap: 12px;
   width: 134px;
   height: 48px;
-  background: #F55800;
-  font-family: 'Inter',sans-serif;
+  background: #f55800;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   border-style: none;
   align-items: center;
   text-align: center;
@@ -155,16 +153,16 @@ body {
   border-radius: 0px; 
 }
 
-.btn-oo{
+.btn-oo {
   height: 48px;
   width: 159px;
   gap: 12px;
   top: 556px;
   border-radius: 0px;
   padding: 12px;
-  background: #F55800;
-  color: #FFFFFF;
-  font-family: 'Inter',sans-serif;
+  background: #f55800;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -176,13 +174,11 @@ body {
   height: 20px;
   width: 17.985200881958008px;
   left: 0.013671875px;
-  top: 0px;
-  border-radius: 0px;
   margin-left: 6px;
 }
 
 @media only screen and (max-width: 600px)  {
-  .modal-main{
+  .modal-main {
     position: absolute; 
     height: 989px;
     left: 0px;
@@ -191,7 +187,7 @@ body {
     mix-blend-mode: multiply;
   }
 
-  .modal-container{
+  .modal-container {
     height: 85%;
     width: 335px;
     top: 60px;
@@ -200,13 +196,13 @@ body {
   }
 
 .modal-container h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 44px;
-  color: #172B4D;
-  left: 0px;
+  color: #172b4d;
+  left: 1px;
 }
 
   .modal-language {
@@ -215,7 +211,7 @@ body {
 
   .modal-language li {
     align-items: center;
-    left: 0px;
+    left: 1px;
   }
 
   .description-part {
@@ -238,8 +234,8 @@ body {
   .info-pop p {
     height: 220px;
     width: 311px;
-    left: 0px;
-    top: 0px;
+    left: 1px;
+    top: 1px;
     border-radius: nullpx;  
   }
 
