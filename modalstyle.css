@@ -183,7 +183,6 @@ body {
 .pop-link {
   text-decoration: none;
   color: #fff;
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -265,5 +264,4 @@ body {
     color: #3c3a39;
     font-size: 27px;
   }
- 
 }
