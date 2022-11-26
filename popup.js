@@ -12,7 +12,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
   {
     id: 'pro-2',
@@ -25,7 +25,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
   {
     id: 'pro-3',
@@ -38,7 +38,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
   {
     id: 'pro-4',
@@ -51,7 +51,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
   {
     id: 'pro-5',
@@ -64,7 +64,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
   {
     id: 'pro-6',
@@ -77,7 +77,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
   {
     id: 'pro-7',
@@ -90,7 +90,7 @@ const projects = [
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://github.com/Habtamu210/portfoliopage',
   },
 ];
 const loadCards = () => {
@@ -147,8 +147,8 @@ const displayModal = (id) => {
       <div class="info-pop">
         <p>${project.description}</p>
         <div class="button-modal">
-          <button class="btn-o"><a class = "pop-link" href= "https://habtamu210.github.io/portfoliopage/"> See Live <img class="live" src="images/Icon-see-live.svg"></a></button>
-          <button class="btn-oo"><a class = "pop-link" href= "https://github.com/Habtamu210/portfoliopage">See Source<img class="see"  src="images/Vector.svg"></a></button>
+          <button class="btn-o"><a class = "pop-link" href= ${project.livelink}> See Live <img class="live" src="images/Icon-see-live.svg"></a></button>
+          <button class="btn-oo"><a class = "pop-link" href= ${project.sourcelink}>See Source<img class="see"  src="images/Vector.svg"></a></button>
         </div>
       </div>
     </div>
