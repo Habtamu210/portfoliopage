@@ -180,6 +180,12 @@ body {
   margin-left: 6px;
 }
 
+.pop-link {
+  text-decoration: none;
+  color: #fff;
+
+}
+
 @media only screen and (max-width: 768px) {
   #myModal {
     display: none;
@@ -259,4 +265,5 @@ body {
     color: #3c3a39;
     font-size: 27px;
   }
+ 
 }

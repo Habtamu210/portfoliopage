@@ -10,7 +10,7 @@ const projects = [
       'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
     sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
@@ -147,8 +147,8 @@ const displayModal = (id) => {
       <div class="info-pop">
         <p>${project.description}</p>
         <div class="button-modal">
-          <button class="btn-o">See Live <img class="live" src="images/Icon-see-live.svg"></button>
-          <button class="btn-oo">See Source<img class="see"  src="images/Vector.svg"></button>
+          <button class="btn-o"><a class = "pop-link" href= "#"> See Live <img class="live" src="images/Icon-see-live.svg"></a></button>
+          <button class="btn-oo"><a class = "pop-link" href= "#">See Source<img class="see"  src="images/Vector.svg"></a></button>
         </div>
       </div>
     </div>
