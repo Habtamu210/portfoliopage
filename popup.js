@@ -1,4 +1,4 @@
-//const { load } = require("flat-cache");
+// const { load } = require("flat-cache");
 
 const projects = [
   {
@@ -7,25 +7,25 @@ const projects = [
     technologies: [
       'html',
       'Bootstrap',
-      'Ruby'
+      'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
     sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
-  { 
+  {
     id: 'pro-2',
     title: 'Profesional Art Printing Data',
     technologies: [
       'html',
       'Bootstrap',
-      'Ruby on rails'
+      'Ruby on rails',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink:'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
   {
     id: 'pro-3',
@@ -33,12 +33,12 @@ const projects = [
     technologies: [
       'Java',
       'Springbot',
-      'Ruby'
+      'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink:'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
   {
     id: 'pro-4',
@@ -46,12 +46,12 @@ const projects = [
     technologies: [
       'html',
       'Bootstrap',
-      'Ruby'
+      'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink:'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
   {
     id: 'pro-5',
@@ -59,12 +59,12 @@ const projects = [
     technologies: [
       'html',
       'Bootstrap',
-      'Ruby'
+      'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink:'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
   {
     id: 'pro-6',
@@ -72,12 +72,12 @@ const projects = [
     technologies: [
       'html',
       'Bootstrap',
-      'Ruby'
+      'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink:'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
   {
     id: 'pro-7',
@@ -85,20 +85,20 @@ const projects = [
     technologies: [
       'html',
       'Bootstrap',
-      'Ruby'
+      'Ruby',
     ],
     featureImage: './images/Img_Placeholder.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     livelink: 'https://habtamu210.github.io/portfoliopage/',
-    sourcelink:'https://habtamu210.github.io/portfoliopage/',
+    sourcelink: 'https://habtamu210.github.io/portfoliopage/',
   },
 ];
-const loadCards = ()=> {
-  for(let i=1; i < projects.length; i+=1){
+const loadCards = () => {
+  for (let i = 1; i < projects.length; i += 1) {
     const mySection = document.createElement('section');
     mySection.classList.add('projects');
     mySection.id = projects[i].id;
-    mySection.innerHTML= `
+    mySection.innerHTML = `
     <div class = "project-data">
       <h3 class="project-title">${projects[i].title}</h3>
       <p class="project-description">${projects[i].description}</p>
@@ -107,19 +107,18 @@ const loadCards = ()=> {
           <li class="langn">bootstrap</li>
           <li class="langn">Ruby</li>
       </ul>
-      <button class="fullwidth-button" id = ${projects[i].id+'-btn'}>See Project</button>
+      <button class="fullwidth-button" id = ${`${projects[i].id}-btn`}>See Project</button>
     </div>
-      `
+      `;
     const workSection = document.querySelector('.works-1');
     workSection.appendChild(mySection);
   }
-}
+};
 document.addEventListener('DOMContentLoaded', () => {
   loadCards();
 }, false);
-  
+
 // pup up
-const additionalLanguages = ['Github', 'Ruby', 'Bootsrap'];
 const projectButtons = [];
 const buttons = document.querySelectorAll('button');
 const modal = document.getElementById('myModal');
@@ -176,4 +175,3 @@ function addLi(proId) {
 for (let i = 0; i < projects.length; i += 1) {
   addLi(projects[i].id);
 }
- 
