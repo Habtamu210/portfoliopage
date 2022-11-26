@@ -753,9 +753,9 @@ footer > hr {
     display: none;
   }
 
-  /*modal*/
+  /* modal */ 
 
-  #myModal{
+  #myModal {
     display: none;
     position: fixed;
     left: 0;
@@ -763,7 +763,6 @@ footer > hr {
     right: 0;
     width: 100%;
     height: 100%;
-   
     overflow: auto;
     z-index: 1000;
     background-color: rgba(208, 208, 209, 0.3);
@@ -775,7 +774,7 @@ footer > hr {
     width: 1156px;
     border-radius: 0px;
     margin: 100px;
-    bottom: 0px;
+    bottom: 1px;
     border: 1px solid #ebecf0;
     padding-left: 8px;
   }
@@ -791,14 +790,14 @@ footer > hr {
   }
   
   .mod-heading h2 {
-  width: 1056px;
-  height: 40px;
-  font-family: 'Crete Round',sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172B4D;
+    width: 1056px;
+    height: 40px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
   }
   
   .modal-language {
@@ -823,33 +822,33 @@ footer > hr {
   }
   
   .modal-language li {
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #3C3A39;
-  row-gap: 10px;
-  border: 1px solid #3C3A39;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid #EBECF0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3c3a39;
+    row-gap: 10px;
+    border: 1px solid #3c3a39;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ebecf0;
   }
   
-  .description-part{
+  .description-part {
     display: flex;
     flex-direction: row;
   }
   
   .img-b {
-  height: 430px;
-  width: 659px;
-  left: 24px;
-  top: 156px;
-  border-radius: 0px;
+    height: 430px;
+    width: 659px;
+    left: 24px;
+    top: 156px;
+    border-radius: 0px;
   }
   
-  .info-pop{
+  .info-pop {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -858,17 +857,16 @@ footer > hr {
   }
   
   .info-pop p {
-  font-family: 'Inter',sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-top: -6px;
-  color: #172B4D;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: -6px;
+    color: #172b4d;
   }
   
-  .button-modal{
+  .button-modal {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -878,22 +876,22 @@ footer > hr {
   }
   
   .btn-o {
-  align-items: flex-start;
-  padding: 12px;
-  gap: 12px;
-  width: 134px;
-  height: 48px;
-  background: #F55800;
-  font-family: 'Inter',sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #FFFFFF;
-  border-style: none;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    width: 134px;
+    height: 48px;
+    background: #f55800;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    border-style: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
   }
   
   .live {
@@ -901,19 +899,19 @@ footer > hr {
     width: 16px;
     left: 4px;
     top: 4px;
-    border-radius: 0px; 
+    border-radius: 1px; 
   }
   
-  .btn-oo{
+  .btn-oo {
     height: 48px;
     width: 159px;
     gap: 12px;
     top: 556px;
     border-radius: 0px;
     padding: 12px;
-    background: #F55800;
-    color: #FFFFFF;
-    font-family: 'Inter',sans-serif;
+    background: #f55800;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -925,7 +923,7 @@ footer > hr {
     height: 20px;
     width: 17.985200881958008px;
     left: 0.013671875px;
-    top: 0px;
+    top: 1px;
     border-radius: 0px;
     margin-left: 6px;
   }
@@ -1103,10 +1101,6 @@ footer > hr {
     justify-content: flex-start;
   }
 
-  /* .nav-item li a{
-    height: 25%;
-  } */
-
   .nav-link {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1124,15 +1118,15 @@ footer > hr {
   }
 
   .nav-menu.active {
-    left: 0;
+    left: 1;
   }
 
   .line-hor {
     display: block;
     height: 1px;
     width: 327px;
-    left: 0;
-    border-radius: 0;
+    left: 1;
+    border-radius: 1px;
     background: #fff;
   }
 
@@ -1143,7 +1137,7 @@ footer > hr {
 
 @media only screen and (max-width: 667px)  {
 
-  .modal-main{
+  .modal-main {
     position: absolute; 
     height: 989px;
     left: 0px;
@@ -1152,7 +1146,7 @@ footer > hr {
     mix-blend-mode: multiply;
   }
 
-  .modal-container{
+  .modal-container {
     height: 85%;
     width: 335px;
     top: 60px;
@@ -1161,22 +1155,22 @@ footer > hr {
 }
 
 .modal-container h2 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 44px;
-    color: #172B4D;
-    left: 0px;
+    color: #172b4d;
+    left: 1px;
   }
 
-  .modal-language{
+  .modal-language {
     margin-left: 2px;
   }
 
-  .modal-language li{
+  .modal-language li {
     align-items: center;
-    left: 0px;
+    left: 1px;
   }
 
   .description-part {
@@ -1189,23 +1183,23 @@ footer > hr {
    width: 310px;
    left: 16px;
    top: 170px;
-   border-radius: 0px;
+   border-radius: 1px;
   }
 
-  .info-pop{
+  .info-pop {
     margin-left: 1px;
   }
 
-  .info-pop p{
+  .info-pop p {
     height: 220px;
     width: 311px;
     left: 0px;
     top: 0px;
     border-radius: nullpx;
-    color: #172B4D;  
+    color: #172b4d;  
   }
 
-  .button-modal{
+  .button-modal {
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -1218,7 +1212,7 @@ footer > hr {
   width: 70px;
   height: 28px;
   opacity: 0.5;
-  color: #3C3A39;
+  color: #3c3a39;
   font-size: 50px;
   margin-top: 10px;
 }
@@ -1228,33 +1222,33 @@ footer > hr {
 }
 
 .modal-language li {
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #3C3A39;
-row-gap: 10px;
-border: 1px solid #3C3A39;
-padding: 10px;
-margin: 10px;
-border: 1px solid #EBECF0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3a39;
+  row-gap: 10px;
+  border: 1px solid #3c3a39;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ebecf0;
 }
 
-.description-part{
+.description-part {
   display: flex;
   flex-direction: row;
 }
 
 .img-b {
-height: 430px;
-width: 659px;
-left: 24px;
-top: 156px;
-border-radius: 0px;
+  height: 430px;
+  width: 659px;
+  left: 24px;
+  top: 156px;
+  border-radius: 0px;
 }
 
-.info-pop{
+.info-pop {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
@@ -1263,22 +1257,22 @@ border-radius: 0px;
 }
 
 .btn-o {
-align-items: flex-start;
-padding: 12px;
-gap: 12px;
-width: 134px;
-height: 48px;
-background: #F55800;
-font-family: 'Inter',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-color: #FFFFFF;
-border-style: none;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  width: 134px;
+  height: 48px;
+  background: #f55800;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border-style: none;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .live {
@@ -1289,16 +1283,16 @@ letter-spacing: 0.03em;
   border-radius: 0px; 
 }
 
-.btn-oo{
+.btn-oo {
   height: 48px;
   width: 159px;
   gap: 12px;
   top: 556px;
-  border-radius: 0px;
+  border-radius: 1px;
   padding: 12px;
-  background: #F55800;
-  color: #FFFFFF;
-  font-family: 'Inter',sans-serif;
+  background: #f55800;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1310,7 +1304,7 @@ letter-spacing: 0.03em;
   height: 20px;
   width: 17.985200881958008px;
   left: 0.013671875px;
-  top: 0px;
-  border-radius: 0px;
+  top: 1px;
+  border-radius: 1px;
   margin-left: 6px;
 }
