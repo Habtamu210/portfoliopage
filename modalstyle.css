@@ -148,7 +148,7 @@ body {
   width: 16px;
   left: 4px;
   top: 4px;
-  border-radius: 0px; 
+  border-radius: 1px;
 }
 
 .btn-oo {
@@ -174,9 +174,9 @@ body {
   margin-left: 6px;
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px) {
   .modal-main {
-    position: absolute; 
+    position: absolute;
     height: 989px;
     background: #979493;
     mix-blend-mode: multiply;
@@ -188,17 +188,16 @@ body {
     top: 60px;
     margin-left: 8px;
   }
-
-.modal-container h2 {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 44px;
-  color: #172b4d;
-  left: 1px;
-}
-
+  .modal-container  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+    left: 1px;
+  }
+  
   .modal-language {
     margin-left: 2px;
   }
@@ -218,7 +217,7 @@ body {
     width: 310px;
     left: 16px;
     top: 170px;
-    border-radius: 0px;
+    border-radius: 1px;
   }
 
   .info-pop {
@@ -230,7 +229,6 @@ body {
     width: 311px;
     left: 1px;
     top: 1px;
-    border-radius: nullpx;  
   }
 
   .button-modal {
@@ -239,5 +237,5 @@ body {
     align-items: center;
     gap: 20px;
     padding-top: 40px; 
-}
+  }
 }

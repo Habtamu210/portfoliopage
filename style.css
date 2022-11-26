@@ -752,9 +752,7 @@ footer > hr {
   .languages-1 {
     display: none;
   }
-
-  /* modal */ 
-
+  
   #myModal {
     display: none;
     position: fixed;
@@ -767,7 +765,7 @@ footer > hr {
     z-index: 1000;
     background-color: rgba(208, 208, 209, 0.3);
   }
-  
+
   .modal-container {
     background: #fff;
     height: 631px;
@@ -779,7 +777,7 @@ footer > hr {
     padding-left: 8px;
   }
   
-  .modal-header{
+  .modal-header {
     display: flex;
     flex-direction: column;
   }
