@@ -28,6 +28,13 @@ header {
   align-items: center;
 }
 
+.h-image .img-h {
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+}
+
 .nav-branding {
   color: #fff;
   font-size: 24px;
